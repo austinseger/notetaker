@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Notes</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <header>
+    <h1>Note Taker</h1>
+    <nav>
+      <button id="new-note" class="btn">New Note</button>
+      <button id="save-note" class="btn hidden">Save Note</button>
+      <button id="clear-note" class="btn hidden">Clear Form</button>
+    </nav>
+  </header>
+  <div id="note-container">
+    <aside>
+      <ul id="note-list"></ul>
+    </aside>
+    <main>
+      <input id="note-title" type="text" placeholder="Note Title">
+      <textarea id="note-text" placeholder="Note Text"></textarea>
+    </main>
+  </div>
+  <script src="assets/js/notes.js"></script>
+</body>
+</html>

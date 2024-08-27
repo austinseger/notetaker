@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+    background-color: #333;
+    color: white;
+  }
+  
+  .btn {
+    background-color: #f0ad4e;
+    color: white;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  #note-container {
+    display: flex;
+    height: 80vh;
+  }
+  
+  aside {
+    width: 25%;
+    border-right: 1px solid #ccc;
+    padding: 1em;
+  }
+  
+  main {
+    flex-grow: 1;
+    padding: 1em;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 0.5em;
+    margin-bottom: 1em;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
